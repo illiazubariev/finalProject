@@ -8,9 +8,9 @@
                 </ul>
             </div>
             <div class="centr">
-                <div class="Logo">
-                    <a id="topBtn" class="btn_1">Pizzerie</a>
-                </div>
+                    <a id="topBtn" class="btn_1">
+                    <img src="" id="logo-img">
+                    </a>
             </div>
             <div class="right">
                 <button id="Delivery" class="btn_2">OBJEDNAT ROZVOZ</button>
@@ -58,7 +58,7 @@
         <div class="geo">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20490.77655366178!2d14.431260649999999!3d50.061061499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94673d77dd09%3A0x4c9f4f645f532866!2zVnnFoWVocmFk!5e0!3m2!1sru!2scz!4v1704033302338!5m2!1sru!2scz" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </main>`,d=()=>`<footer id="footer">
+    </main>`,c=()=>`<footer id="footer">
             <div class="bottom">
             <ul class="etc">
                 <li><b>Copyright 2023,</b> Všechna práva vyhrazena.</li>
@@ -69,8 +69,8 @@
                 </li>
             </ul>
         </div>
-    </footer>`,c=()=>`<main class="dMain">
+    </footer>`,d=()=>`<main class="dMain">
     <h1 >Vyberte si z široké nabídky pizzy či čehokoliv dalšího z naší nabídky, na co máte právě chuť a my se postaráme o bezproblémový dovoz až k vašim dveřím. Rozvoz jídel po Praze. Nás prosím kontaktujte na tel. +420 777 688 804.
     <img class="loader" id="quote-img" alt="">
     </h1>
-    </main>`,m=Object.freeze(Object.defineProperty({__proto__:null,Delivery:c,Footer:d,Header:l,Main:n},Symbol.toStringTag,{value:"Module"})),v="/finalProject/assets/fb-uX1L4t0X.png",u="/finalProject/assets/insta-JZy_yhRD.png",p="/finalProject/assets/quote-cnxhbrAs.png";export{m as C,u as a,p as b,v as i};
+    </main>`,m=Object.freeze(Object.defineProperty({__proto__:null,Delivery:d,Footer:c,Header:l,Main:n},Symbol.toStringTag,{value:"Module"})),v="/finalProject/assets/fb-uX1L4t0X.png",u="/finalProject/assets/insta-JZy_yhRD.png",p="/finalProject/assets/quote-cnxhbrAs.png",g="/finalProject/assets/pizzapng-ZAyDEtfw.png";export{m as C,u as a,p as b,g as c,v as i};
