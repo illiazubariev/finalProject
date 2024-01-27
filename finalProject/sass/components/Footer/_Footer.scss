@@ -1,0 +1,70 @@
+.etc{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--footerBG-color);
+    color: var(--textW-color);
+    font-size: calc(var(--index));
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        #fb-img,
+        #insta-img{
+            height: 5vh;
+            width: 5vh;
+            background-color: aliceblue;
+            border: 2px solid rgba(255, 255, 255, 0);
+            border-radius: 10%;
+            
+        }
+    }
+
+}
+
+
+
+@keyframes backgroundSoc {
+    100% {
+      background-position: 5vh 5vh;
+    }
+}
+#fb-img:hover,
+#insta-img:hover
+{
+    background: linear-gradient(
+        90deg,
+        rgb(255, 0, 0),
+        rgb(255, 174, 0),
+        yellow,
+        green,
+        rgb(122, 213, 255),
+        blue,
+        rgb(230, 0, 255),
+        rgb(255, 0, 85),
+      );
+    background-position: 0 0;
+    animation: backgroundSoc 1s infinite linear;
+    
+}
+
+@media screen and (max-width: 600px){
+    .etc{
+        font-size: calc(var(--index)*0.5);
+        .social{
+            #fb-img,
+            #insta-img{
+                height: 3vh;
+                width: 3vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .etc{
+        flex-direction: column;
+    }
+}

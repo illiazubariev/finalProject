@@ -1,0 +1,210 @@
+#top{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    background-color: var(--headerBG-color);
+    position: fixed;
+    z-index: 3;
+    transition: transform .3s linear;
+    .left{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                display: flex;
+                margin-left: 2vw;
+                .btn_1{
+                    font-size: calc(var(--index));
+                    color: var(--textB-color);
+                }
+                .btn_1:hover{
+                    color: rgb(244, 111, 111);
+                }
+            }
+        }
+
+    }    
+    .centr{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--headerBG-color);
+            height: 11vh;
+            width: 11vw;
+            border-radius: 50%;
+            .btn_1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: calc(var(--index)*3);
+                color: var(--textB-color);
+                font-family: 'Sevillana', cursive;
+                font-weight: 500; 
+                background-color: transparent;
+                transition: transform .3s linear
+                
+            }
+            .btn_1:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        .btn_2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-wrap: nowrap;
+            font-size: calc(var(--index));
+            color: var(--textB-color);
+            width: min-content;
+            height: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+            background-color: rgb(114, 221, 162);
+            transition: ease-in-out 0.1s;
+        }
+        .btn_2:hover{
+            background-color: rgba(114, 221, 162, 0.826);
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+    }
+
+}
+.hide{
+    transform: translateY(-7vh);
+    #top{
+        transform: translateY(-2vh);
+    }
+}
+
+.Pad1{
+    display: flex;
+    width: 100vw;
+    position: relative;
+    .prev{
+        h1{
+            font-size: calc(var(--index)*4);
+            color: var(--textW-color);
+            position: absolute;
+            bottom: 0;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #top{
+        .centr{
+            .Logo{
+                transform: scale(0.9);
+            }
+        }
+    }
+    .Header{
+        .prev{
+            h1{
+                font-size: calc(var(--index)*2);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    #top{
+        .centr{
+            .Logo{
+
+                transform: scale(0.8);
+            }
+        }
+    }
+    .Header{
+        .prev{
+            h1{
+                font-size: calc(var(--index)*1.5);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+#top{
+    height: 3vh;
+    .centr{
+        .Logo{
+background-color: transparent;
+        }
+        .left{
+            ul{
+                li{
+                    .btn_1{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .Logo{
+            transform: scale(0.8);
+            .btn_1{
+                font-size: 20px;
+            }
+        }
+    }
+}
+    
+};
+
+
+@media screen and (max-width: 400px){
+    #top{
+        height: 3vh;
+        .left{
+            ul{
+                li{
+                    .btn_1{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .centr{
+            .Logo{
+                height: 3vh;
+                width: 3vw;
+                .btn_1{
+                    font-size: calc(var(--index)*2);
+                }
+            }
+        }
+        .right{
+            .btn_2{
+                font-size: calc(var(--index)*0.5);
+            }
+        }
+    }
+    };
