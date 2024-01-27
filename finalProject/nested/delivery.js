@@ -1,4 +1,4 @@
-import "normalize.css";
+
 import "../css/index.min.css";
 import * as Components from "../components";
 import imgUrlFB from "../src/fb.png";
