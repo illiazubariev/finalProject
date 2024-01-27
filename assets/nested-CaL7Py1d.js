@@ -1,4 +1,4 @@
-import{i as e,a as t,b as n,c as o,C as d}from"./pizzapng-kMvRg7GS.js";const{Header:l,Delivery:r,Footer:i}=d;document.querySelector("#appdeliv").innerHTML=`
+import{i as e,a as t,b as n,c as o,C as d}from"./pizzapng-xWz4FF1D.js";const{Header:l,Delivery:r,Footer:i}=d;document.querySelector("#appdeliv").innerHTML=`
     ${l()}
     ${r()}
     ${i()}
