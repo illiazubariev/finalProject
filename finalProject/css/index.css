@@ -355,9 +355,13 @@ h5 {
 }
 #top .centr img {
   height: 7vh;
+  -webkit-transition: ease-in-out 0.03s;
+  transition: ease-in-out 0.03s;
 }
-#top .centr .btn_1:hover {
+#top .centr img:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 #top .right {
   display: -webkit-box;
