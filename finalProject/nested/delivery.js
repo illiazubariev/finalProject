@@ -1,9 +1,9 @@
-
 import "../css/index.min.css";
 import * as Components from "../components";
 import imgUrlFB from "../src/fb.png";
 import imgUrlInsta from "../src/insta.png";
 import imgUrlq from "../src/quote.png";
+import imgLogo from "../src/pizzapng.png";
 
 
 const { Header, Delivery, Footer } = Components;
@@ -17,6 +17,7 @@ document.querySelector("#appdeliv").innerHTML = `
 document.getElementById('fb-img').src = imgUrlFB;
 document.getElementById('insta-img').src = imgUrlInsta;
 document.getElementById('quote-img').src = imgUrlq;
+document.getElementById('logo-img').src = imgLogo;
 
 document.getElementById('topBtn')
   .addEventListener('click', () => location = "../index.html");

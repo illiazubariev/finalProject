@@ -342,6 +342,7 @@ h5 {
 }
 #top .centr {
   width: 30%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,42 +353,10 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
 }
-#top .centr .Logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: var(--headerBG-color);
-  height: 11vh;
-  width: 11vw;
-  border-radius: 50%;
+#top .centr img {
+  height: 7vh;
 }
-#top .centr .Logo .btn_1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: calc(var(--index) * 3);
-  color: var(--textB-color);
-  font-family: "Sevillana", cursive;
-  font-weight: 500;
-  background-color: transparent;
-  -webkit-transition: -webkit-transform 0.3s linear;
-  transition: -webkit-transform 0.3s linear;
-  transition: transform 0.3s linear;
-  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
-}
-#top .centr .Logo .btn_1:hover {
+#top .centr .btn_1:hover {
   cursor: pointer;
 }
 #top .right {

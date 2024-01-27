@@ -13,6 +13,7 @@ import imgUrlprev5 from "./src/IMG5.jpg";
 import imgUrlInsta from "./src/insta.png";
 import imgUrlq from "./src/quote.png";
 import imgUrlArrow from "./src/arrow.png";
+import imgLogo from "./src/pizzapng.png";
 
 
 const { Header, Main, Footer } = Components;
@@ -42,6 +43,7 @@ document.getElementById('prev-img4').src = imgUrlprev4;
 document.getElementById('prev-img5').src = imgUrlprev5;
 document.getElementById('arrow-imgL').src = imgUrlArrow;
 document.getElementById('arrow-imgR').src = imgUrlArrow;
+document.getElementById('logo-img').src = imgLogo;
 
 
 //Hidebar

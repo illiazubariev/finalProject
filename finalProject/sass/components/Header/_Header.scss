@@ -31,33 +31,16 @@
     }    
     .centr{
         width: 30%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .Logo{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--headerBG-color);
-            height: 11vh;
-            width: 11vw;
-            border-radius: 50%;
-            .btn_1{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: calc(var(--index)*3);
-                color: var(--textB-color);
-                font-family: 'Sevillana', cursive;
-                font-weight: 500; 
-                background-color: transparent;
-                transition: transform .3s linear
-                
+            img{
+                height: 7vh;
             }
             .btn_1:hover{
                 cursor: pointer;
             }
-        }
     }
     .right{
         display: flex;

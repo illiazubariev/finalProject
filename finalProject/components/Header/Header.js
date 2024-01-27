@@ -9,9 +9,9 @@ export const Header = () => {
                 </ul>
             </div>
             <div class="centr">
-                <div class="Logo">
-                    <a id="topBtn" class="btn_1">Pizzerie</a>
-                </div>
+                    <a id="topBtn" class="btn_1">
+                    <img src="" id="logo-img">
+                    </a>
             </div>
             <div class="right">
                 <button id="Delivery" class="btn_2">OBJEDNAT ROZVOZ</button>
